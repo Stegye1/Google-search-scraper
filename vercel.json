@@ -7,5 +7,6 @@
           "distDir": "dist"
         }
       }
-    ]
+    ],
+     "public": "dist"
   }
