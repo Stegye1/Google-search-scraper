@@ -51,6 +51,7 @@ export default defineConfig(({ command, mode }): UserConfig => {
         // Don't cache the server response in dev mode
         "Cache-Control": "public, max-age=0",
       },
+      port: process.env.PORT ? parseInt(process.env.PORT as string) : 5173, // Použije port z prostředí, jinak 5173      
     },   
     preview: {
       headers: {
