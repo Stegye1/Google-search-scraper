@@ -16,7 +16,7 @@ export type SearchResult = {
 export const onPost: RequestHandler = async ({ request, json }) => {
   // Z těla požadavku POST se extrahuje hodnota `query`
     const { query } = await request.json();
-  
+    
     // puppeteer spustí na pozadí instanci prohlížeče a otevře novou stránku
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
