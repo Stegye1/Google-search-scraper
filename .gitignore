@@ -1,5 +1,4 @@
 # Build
-/dist
 /lib
 /lib-types
 /server
@@ -40,6 +39,3 @@ lerna-debug.log*
 # Yarn
 .yarn/*
 !.yarn/releases
-
-# Vercel
-.vercel
